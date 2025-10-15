@@ -1,6 +1,13 @@
 #include <Arduino.h>​
 
-​
+​/*
+
+This is the template file you will be using for the workshop 
+Please feel free to change and experiemnt with this during the workshop
+
+
+*/
+
 
 int ledPin = 9; // LED connected to digital pin D9​
 
