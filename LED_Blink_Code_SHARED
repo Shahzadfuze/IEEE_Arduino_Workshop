@@ -1,6 +1,7 @@
-#include <Arduino.h>​
+#include <Arduino.h>
 
-​/*
+
+/*
 
 This is the template file you will be using for the workshop 
 Please feel free to change and experiemnt with this during the workshop
@@ -12,13 +13,12 @@ Please feel free to change and experiemnt with this during the workshop
 int ledPin1 = 9;    // LED connected to digital pin D9​
 int ledPin2 = 10 ;  // LED connceted to digital pin D10
 
-​
 
-void setup() {​
 
-  // Set pin D9 as an output​
+void setup() {
+  // Set pin D9 is an output​
 
-  pinMode(ledPin1, OUTPUT);​
+  pinMode(ledPin1, OUTPUT);
 
   // Set pin D10 as an output
   pinMode(ledPin2, OUTPUT);
@@ -26,24 +26,23 @@ void setup() {​
 
   // Turn the LED ON​
 
-  digitalWrite(ledPin1, HIGH);​
-  digitalWrite(ledPin2, HIGH);​
+  digitalWrite(ledPin1, HIGH);
+  digitalWrite(ledPin2, HIGH);
 
 
-}​
+}
 
-void loop() {​
+void loop() {
 
   digitalWrite(ledPin1, HIGH); // Turn LED ON​
   digitalWrite(ledPin2, HIGH);
   delay(1000);                // Wait 1 second​
 
-​
+
 
   digitalWrite(ledPin1, LOW);  // Turn LED OFF​
   digitalWrite(ledPin2, LOW);
   delay(1000);                // Wait 1 second​
 
-}​
+}
 
-​
