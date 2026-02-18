@@ -10,25 +10,31 @@ Please feel free to change and experiemnt with this during the workshop
 */
 
 
-int ledPin1 = 9;    // LED connected to digital pin D9​
-int ledPin2 = 10 ;  // LED connceted to digital pin D10
+int ledPin1 = 8;    // LED connected to digital pin D9​
+int ledPin2 = 9 ;  // LED connceted to digital pin D10
+int ledPin3 = 10 ;  // LED connceted to digital pin D10
 
 
 
 void setup() {
-  // Set pin D9 is an output​
 
+  // Set pin D8 as an output
   pinMode(ledPin1, OUTPUT);
 
-  // Set pin D10 as an output
+  // Set pin D9 is an output​
   pinMode(ledPin2, OUTPUT);
+
+  // Set pin D10 as an output
+  pinMode(ledPin3, OUTPUT);
+
+  
 
 
   // Turn the LED ON​
 
   digitalWrite(ledPin1, HIGH);
   digitalWrite(ledPin2, HIGH);
-
+  digitalWrite(ledPin3, HIGH);
 
 }
 
@@ -36,13 +42,16 @@ void loop() {
 
   digitalWrite(ledPin1, HIGH); // Turn LED ON​
   digitalWrite(ledPin2, HIGH);
+  digitalWrite(ledPin3, HIGH);
   delay(1000);                // Wait 1 second​
 
 
 
   digitalWrite(ledPin1, LOW);  // Turn LED OFF​
   digitalWrite(ledPin2, LOW);
+  digitalWrite(ledPin3, LOW);
   delay(1000);                // Wait 1 second​
 
 }
+
 
